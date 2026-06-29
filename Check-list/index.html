@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checklist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Checklist de Organização e Limpeza</h1>
+      <p>Preencher dados abaixo:</p>
+
+      <label for="nome">Nome do Líder:</label>
+      <br />
+      <!--br é a quebra de linha, para pular uma linha e deixar o texto mais organizado -->
+      <input
+        type="text"
+        class="campo"
+        id="nome"
+        placeholder="Digite seu nome"
+      />
+      <!-- input e a caixa de texto, o placeholder é o texto que aparece dentro da caixa -->
+      <br /><br />
+      <label for="data">Data:</label>
+      <br />
+      <input type="date" class="campo" id="data" name="data" />
+      <br /><br />
+
+      <h2>Checklist</h2>
+
+      <div class="tarefa">
+        <h3>Limpeza dos Sumps</h3>
+
+        <input type="radio" id="sumps-concluido" name="sumps" />
+        <label for="sumps-concluido">Concluído</label>
+
+        <input type="radio" id="sumps-nao-concluido" name="sumps" />
+        <label for="sumps-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-sumps">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-sumps"
+          name="responsavel-sumps"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-sumps">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-sumps"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Limpeza das Calhas do Gnv</h3>
+
+        <input type="radio" id="calhas-concluido" name="calhas" />
+        <label for="calhas-concluido">Concluído</label>
+
+        <input type="radio" id="calhas-nao-concluido" name="calhas" />
+        <label for="calhas-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-calhas">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-calhas"
+          name="responsavel-calhas"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-calhas">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-calhas"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Limpeza dos Fornos</h3>
+
+        <input type="radio" id="fornos-concluido" name="fornos" />
+        <label for="fornos-concluido">Concluído</label>
+
+        <input type="radio" id="fornos-nao-concluido" name="fornos" />
+        <label for="fornos-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-fornos">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-fornos"
+          name="responsavel-fornos"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-fornos">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-fornos"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Limpeza e Organização Depósito do GNV</h3>
+
+        <input type="radio" id="deposito-concluido" name="deposito" />
+        <label for="deposito-concluido">Concluído</label>
+
+        <input type="radio" id="deposito-nao-concluido" name="deposito" />
+        <label for="deposito-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-deposito">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-deposito"
+          name="responsavel-deposito"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-deposito">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-deposito"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Organização Da Troca de Òleos</h3>
+
+        <input type="radio" id="troca-concluido" name="troca" />
+        <label for="troca-concluido">Concluído</label>
+
+        <input type="radio" id="troca-nao-concluido" name="troca" />
+        <label for="troca-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-troca">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-troca"
+          name="responsavel-troca"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-troca">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-troca"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Organização Depósito Conveniência</h3>
+
+        <input type="radio" id="conveniencia-concluido" name="conveniencia" />
+        <label for="conveniencia-concluido">Concluído</label>
+
+        <input
+          type="radio"
+          id="conveniencia-nao-concluido"
+          name="conveniencia"
+        />
+        <label for="conveniencia-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-conveniencia">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-conveniencia"
+          name="responsavel-conveniencia"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-conveniencia">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-conveniencia"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <div class="tarefa">
+        <h3>Limpeza das Bombas de Combustível</h3>
+
+        <input type="radio" id="bomba-concluido" name="bomba" />
+        <label for="bomba-concluido">Concluído</label>
+
+        <input type="radio" id="bomba-nao-concluido" name="bomba" />
+        <label for="bomba-nao-concluido">Não Concluído</label>
+
+        <br /><br />
+
+        <label for="responsavel-bomba">Funcionário Responsável:</label>
+        <br />
+        <input
+          type="text"
+          class="campo"
+          id="responsavel-bomba"
+          name="responsavel-bomba"
+          placeholder="Digite o nome do responsável"
+        />
+
+        <br /><br />
+
+        <label for="obs-bomba">Observação:</label>
+        <br />
+
+        <textarea
+          id="obs-bomba"
+          rows="3"
+          class="campo"
+          placeholder="Digite a observação"
+        ></textarea>
+      </div>
+
+      <button type="submit" onclick="enviarChecklist()">
+        Finalizar Checklist
+      </button>
+      <a href="historico.html" class="botao-link">📋 Ver Histórico</a>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
