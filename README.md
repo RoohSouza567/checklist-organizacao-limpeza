@@ -41,3 +41,7 @@ Durante o desenvolvimento, foram praticados conceitos como:
 - Navegação entre páginas
 - Exportação de dados em PDF
 - Responsividade básica
+
+## Acesse o projeto online
+
+🔗 https://roohsouza567.github.io/checklist-organizacao-limpeza/
