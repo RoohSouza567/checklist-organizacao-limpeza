@@ -2,6 +2,25 @@
 
 Sistema web desenvolvido para registrar checklists de organização e limpeza, permitindo salvar histórico por líder, visualizar registros por data, excluir checklists e exportar as informações em PDF.
 
+## Acesse o projeto online
+
+🔗 https://roohsouza567.github.io/checklist-organizacao-limpeza/
+
+## Demonstração do projeto
+
+![Tela inicial do projeto](assets/tela-inicial.png)
+
+## Como usar o sistema
+
+1. Acesse o projeto online pelo link acima.
+2. Preencha o nome do líder e a data.
+3. Marque cada tarefa como concluída ou não concluída.
+4. Informe o funcionário responsável.
+5. Adicione observações, se necessário.
+6. Clique em "Finalizar Checklist" para salvar.
+7. Acesse a página de histórico para consultar os registros.
+8. No histórico, é possível visualizar, excluir ou exportar o checklist em PDF.
+
 ## Funcionalidades
 
 - Cadastro do nome do líder e data
@@ -42,6 +61,12 @@ Durante o desenvolvimento, foram praticados conceitos como:
 - Exportação de dados em PDF
 - Responsividade básica
 
-## Acesse o projeto online
+## Melhorias futuras
 
-🔗 https://roohsouza567.github.io/checklist-organizacao-limpeza/
+- Integração com n8n
+- Envio automático de checklist por e-mail
+- Login de usuários
+- Salvamento em banco de dados
+- Dashboard com estatísticas
+- Filtro por período
+- Melhorias visuais no layout
